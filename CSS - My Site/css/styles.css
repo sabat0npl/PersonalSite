@@ -1,0 +1,38 @@
+body {
+  background-color: #d8ebb5;
+
+  margin: 0;
+  text-align: center;
+  font-family: 'Gotu', sans-serif;
+}
+
+h1 {
+font-family: 'Courgette', cursive;
+  margin: 0;
+  padding: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+.head {
+  background-color: #d8ebb5;
+  margin: 0;
+  position: relative;
+  padding: 100px;
+}
+
+.mountain{
+  margin: 0;
+}
+.cloud-top{
+  margin: 0;
+  position: absolute;
+  right: 600px;
+  }
+.cloud-bottom{
+  margin: 0;
+  position: absolute;
+  left: 600px;
+}
