@@ -1,13 +1,11 @@
 body {
-  background-color: #d8ebb5;
-
   margin: 0;
   text-align: center;
   font-family: 'Gotu', sans-serif;
 }
 
 h1 {
-font-family: 'Courgette', cursive;
+  font-family: 'Courgette', cursive;
   margin: 0;
   padding: 20px;
 }
@@ -23,16 +21,28 @@ p {
   padding: 100px;
 }
 
-.mountain{
+.mountain {
   margin: 0;
 }
-.cloud-top{
+
+.cloud-top {
   margin: 0;
   position: absolute;
   right: 600px;
-  }
-.cloud-bottom{
+}
+
+.cloud-bottom {
   margin: 0;
   position: absolute;
   left: 600px;
+}
+.webskills{
+  background-color: none;
+  height: 200px;
+  width: 200px;
+}
+.pythonskills{
+  background-color: none;
+  height: 200px;
+  width: 200px;
 }
