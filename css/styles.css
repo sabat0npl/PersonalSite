@@ -5,23 +5,49 @@ body {
 }
 
 h1 {
+  font-size: 562.5%;
   font-family: 'Courgette', cursive;
-  margin: 0;
-  padding: 20px;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
 }
 
-p {
-  margin: 0;
+h2 {
+  color: #66BFBF;
+  font-family: 'Merriweather', sans;
+  font-size: 2.5rem
 }
 
+h3 {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+hr{
+  border: #EAF6F6;
+  background-color: None;
+  border-style: dotted;
+  border-width: 7px;
+  width: 5%;
+  border-bottom: none;
+  margin: 50px auto 50px auto;
+}
 .head {
-  background-color: #d8ebb5;
+  background-color: #EAF6F6;
   margin: 0;
   position: relative;
-  padding: 100px;
+}
+.head-title{
+  margin: 0;
+  padding-top: 100px;
+}
+.mountain {
+  margin: 0;
 }
 
-.mountain {
+.developer {
+  font-weight: normal;
   margin: 0;
 }
 
@@ -29,20 +55,76 @@ p {
   margin: 0;
   position: absolute;
   right: 600px;
+  top: 25px;
 }
-
+.sun{
+  margin:0;
+  position: absolute;
+  right: 700px;
+  top: 300px;
+  width: 100px;
+  object-fit: cover;
+  display: none;
+}
 .cloud-bottom {
   margin: 0;
   position: absolute;
   left: 600px;
+  bottom: 300px;
 }
-.webskills{
-  background-color: none;
-  height: 200px;
-  width: 200px;
+.profile{
+  width: 40%;
+  margin: 0 auto;
 }
-.pythonskills{
-  background-color: none;
-  height: 200px;
-  width: 200px;
+.my-photo{
+  width: 15%;
+}
+.webskills {
+  float: left;
+  width: 15%;
+  margin-right: 30px;
+}
+
+.pythonskills {
+  float: right;
+  width: 15%;
+  margin-left: 30px;
+
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2
+}
+.bottom{
+  background-color: #66BFBF;
+  padding: 50px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  margin: 20px auto 0 auto;
+}
+.footer-link{
+  color: #11999E;
+  margin:50px ;
+ text-decoration: none;
+}
+.btn{
+  box-shadow: 0px 10px 14px -7px #276873;
+  	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  	background-color:#599bb3;
+  	border-radius:8px;
+  	display:inline-block;
+  	cursor:pointer;
+  	color:#ffffff;
+  	font-family:Arial;
+  	font-size:20px;
+  	font-weight:bold;
+  	padding:13px 32px;
+  	text-decoration:none;
+  	text-shadow:0px 1px 0px #3d768a;
+  margin-bottom: 20px;
 }
